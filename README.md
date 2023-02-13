@@ -2,6 +2,23 @@
 This repository aims to provide a static page to display a Next.js template consuming Wordpress.
 Contact us to learn more about the Next.js with Wordpress template
 
+<center>
+  <table>
+    <tr>
+        <td>
+          <img width="100%" src="https://github.com/marcellecode/travel-blog-template/blob/main/readme%20files/MacBook%20Air_MacBook%20Pro%2016_%20-%201.png" />
+        </td>
+        <td>
+            <img width="100%" src="https://github.com/marcellecode/travel-blog-template/blob/main/readme%20files/iPhone%2014%20Pro%20in%20deep%20purple%20color_iPad%20mini%208.3%20-%201.png" />
+        </td>
+    </tr>
+  </table>
+</center>
+
+If you want to see more about this design, check my [Behance](https://www.behance.net/gallery/163631241/Travel-Blog-and-Agency-Web-Page).
+
+## How to download and run this project
+
 ### `npm start`
 
 Runs the app in the development mode.\
