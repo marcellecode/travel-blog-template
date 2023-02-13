@@ -1,7 +1,15 @@
+@import "./ColorPalete.scss";
+
 @font-face {
   font-family: "Montserrat-Regular";   /*Can be any text*/
   src: local("Montserrat-Regular"),
     url("./assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BreeSerif-Regular";   /*Can be any text*/
+  src: local("BreeSerif-Regular"),
+    url("./assets/fonts/Bree_Serif/BreeSerif-Regular.ttf") format("truetype");
 }
 
 body {
