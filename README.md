@@ -1,10 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+# Travel Blog - Static Page
+This repository aims to provide a static page to display a Next.js template consuming Wordpress.
+Contact us to learn more about the Next.js with Wordpress template
 
 ### `npm start`
 
