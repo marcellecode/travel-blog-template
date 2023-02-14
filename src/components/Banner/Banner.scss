@@ -1,8 +1,9 @@
 .banner-container {
-    // background-image: url("../../assets/img/shot-by-cerqueira-8qH4GSYBiSA-unsplash.jpg");
+    background-image: url("../../assets/img/man-kwan-bQFxKVLV6SY-unsplash.jpg");
     width: 100%;
     height: 100%;
-    // background-size: cover;
+    background-size: cover;
+    background-position: center;
 
     .banner-content {
         height: 100%;
@@ -40,13 +41,5 @@
             height: 56px;
             margin-left: 60px;
         }
-    }
-
-    img {
-        z-index: -1;
-        position: relative;
-        height: 861px;
-        width: 100%;
-        bottom: 137px;
     }
 }
