@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
-
+  console.log(isOpen)
   return (
     <header className="header-container">
       <div className={`links-container ${(isOpen ? 'expanded' :  '')}`}>
