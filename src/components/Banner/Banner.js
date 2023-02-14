@@ -1,5 +1,5 @@
 import "./Banner.scss";
-import backgroundImage from "../../assets/img/shot-by-cerqueira-8qH4GSYBiSA-unsplash.jpg";
+// import backgroundImage from "../../assets/img/shot-by-cerqueira-8qH4GSYBiSA-unsplash.jpg";
 
 const Banner = () => {
   return (
