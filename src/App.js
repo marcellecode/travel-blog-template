@@ -9,6 +9,9 @@ function App() {
      <section className="banner-home">
         <Banner/>
      </section>
+     <section className="passeios">
+              <h1>Passeios</h1>
+     </section>
     </div>
   );
 }
