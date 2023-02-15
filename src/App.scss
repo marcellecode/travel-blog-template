@@ -15,7 +15,8 @@
     background-position-y: -61px;
     background-size: 280px;
     padding: 15px;
-
+    display: flex;
+    flex-direction: column;
     h1 {
         font-family: "BreeSerif-Regular";
         font-style: normal;
@@ -24,4 +25,11 @@
         padding: 0px;
         margin: 0px;
     }   
+
+    .passeios-list {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 15px;
+        flex-wrap: wrap;
+    }
 }

@@ -5,12 +5,12 @@ import { useState } from "react";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
-  console.log(isOpen)
+
   return (
     <header className="header-container">
       <div className={`links-container ${(isOpen ? 'expanded' :  '')}`}>
         <a href="#">blog</a>
-        <a href="#">passeios</a>
+        <a href="#passeios">passeios</a>
         <a href="#">sobre nós</a>
         <a href="#">contato</a>
       </div>
