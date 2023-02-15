@@ -5,7 +5,7 @@ import Passeios from "./components/Passeios/Passeios";
 import paoDeAcucarImage from "./assets/img/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg";
 import cityTourImage from "./assets/img/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.jpg";
 import parqueLageImage from "./assets/img/ondrej-bocek-3q0YQQJMkjw-unsplash.jpg";
-
+import ownerBlog from "./assets/img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg"
 function App() {
   return (
     <div className="App">
@@ -39,6 +39,29 @@ function App() {
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula orci, porttitor sed ipsum in, dictum ornare sem. Ut pretium consequat tortor, at congue urna semper a. "
             buttonLabel="agende já"
           />
+        </div>
+      </section>
+
+      <section className="sobrenos" id="sobrenos">
+        <h1>Sobre nós</h1>
+        <div className="sobrenos-content">
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            ligula orci, porttitor sed ipsum in, dictum ornare sem. Ut pretium
+            consequat tortor, at congue urna semper a. Fusce sit amet turpis et
+            nisl hendrerit facilisis. Aliquam porttitor libero eu lectus
+            aliquam, non placerat odio dignissim. Fusce tincidunt accumsan erat
+            sit amet commodo. Aliquam dolor metus, dictum id sem et, scelerisque
+            sodales nunc. Nam malesuada non urna non faucibus. Aliquam pharetra
+            nulla vitae dolor pretium ultrices. Donec nisi ante, cursus ut lorem
+            non, tincidunt venenatis quam. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+            blandit nisl lectus, id tincidunt tortor finibus ac. Etiam sit amet
+            ultricies turpis. Aenean ornare mauris at molestie pharetra.
+            Vestibulum erat risus, fermentum eu elementum eget, finibus in sem.
+            Suspendisse vitae accumsan dolor.
+          </span>
+          <img src={ownerBlog} alt="" />
         </div>
       </section>
     </div>

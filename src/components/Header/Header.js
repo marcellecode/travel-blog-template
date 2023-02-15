@@ -11,8 +11,8 @@ const Header = () => {
       <div className={`links-container ${(isOpen ? 'expanded' :  '')}`}>
         <a href="#">blog</a>
         <a href="#passeios">passeios</a>
-        <a href="#">sobre nós</a>
-        <a href="#">contato</a>
+        <a href="#sobrenos">sobre nós</a>
+        <a href="#contato">contato</a>
       </div>
       <div className="logo-container">
         <img src={logo} alt="Travel Logo" />

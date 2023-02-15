@@ -9,7 +9,7 @@
 .passeios {
     background-image: url("./assets/img/Mapa\ fundo.png");
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-repeat: no-repeat;
     background-position-x: 107px;
     background-position-y: -61px;
@@ -17,6 +17,7 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
+
     h1 {
         font-family: "BreeSerif-Regular";
         font-style: normal;
@@ -24,12 +25,52 @@
         font-size: 40px;
         padding: 0px;
         margin: 0px;
-    }   
+    }
 
     .passeios-list {
         display: flex;
         justify-content: space-evenly;
         margin: 10px 15px;
         flex-wrap: wrap;
+    }
+}
+
+.sobrenos {
+    background-image: url("./assets/img/mapa\ green\ fundo.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-position-y: center;
+    flex-wrap: wrap;
+    h1 {
+        font-family: "BreeSerif-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        padding: 0px;
+        margin: 0px;
+        opacity: 1;
+    }
+
+    .sobrenos-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 350px;
+            height: 350px;
+            border-radius: 100%;
+            border: 20px solid rgba(131, 133, 43, 0.56);;
+        }
+
+        span {
+            width: 500px;
+            line-height: 25px;
+        } 
     }
 }
