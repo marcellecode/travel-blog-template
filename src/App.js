@@ -5,7 +5,7 @@ import Passeios from "./components/Passeios/Passeios";
 import paoDeAcucarImage from "./assets/img/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg";
 import cityTourImage from "./assets/img/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.jpg";
 import parqueLageImage from "./assets/img/ondrej-bocek-3q0YQQJMkjw-unsplash.jpg";
-import ownerBlog from "./assets/img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg"
+import ownerBlog from "./assets/img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg";
 function App() {
   return (
     <div className="App">
@@ -62,6 +62,30 @@ function App() {
             Suspendisse vitae accumsan dolor.
           </span>
           <img src={ownerBlog} alt="" />
+        </div>
+      </section>
+
+      <section className="contato" id="contato">
+        <h1>Contato</h1>
+        <div className="contato-content">
+          <form action="">
+            <label htmlFor="">Nome</label>
+            <input type="text" placeholder="nome" />
+
+            <label htmlFor="">E-mail</label>
+            <input type="email" placeholder="e-mail" />
+
+            <label htmlFor="">Telefone</label>
+            <input type="phone" placeholder="telefone" />
+
+            <label htmlFor="">Passeio de Interesse</label>
+            <input type="text" placeholder="passeio" />
+
+            <label htmlFor="">Mensagem</label>
+            <textarea rows="5" cols="50"></textarea>
+
+            <button>enviar</button>
+          </form>
         </div>
       </section>
     </div>
