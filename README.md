@@ -16,6 +16,7 @@ Contact us to learn more about the Next.js with Wordpress template
 </center>
 
 If you want to see more about this design, check my [Behance](https://www.behance.net/gallery/163631241/Travel-Blog-and-Agency-Web-Page).
+Now we have a live preview of this template. Click here to [see](https://marcellecode.github.io/travel-blog-template/)
 
 ## How to download and run this project
 
