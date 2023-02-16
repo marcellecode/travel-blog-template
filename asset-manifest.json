@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4bd9e35.css",
-    "main.js": "/static/js/main.252a22ec.js",
-    "static/js/787.b5f25161.chunk.js": "/static/js/787.b5f25161.chunk.js",
-    "static/media/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.jpg": "/static/media/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.7df937ab00660e25cc90.jpg",
-    "static/media/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg": "/static/media/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.39a84100753be9211942.jpg",
-    "static/media/ondrej-bocek-3q0YQQJMkjw-unsplash.jpg": "/static/media/ondrej-bocek-3q0YQQJMkjw-unsplash.7e77b35580bb746b315d.jpg",
-    "static/media/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg": "/static/media/denys-nevozhai-z0nVqfrOqWA-unsplash.93d360ac671938c90928.jpg",
-    "static/media/man-kwan-bQFxKVLV6SY-unsplash.jpg": "/static/media/man-kwan-bQFxKVLV6SY-unsplash.044e8c788a68fc5ac56f.jpg",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/mapa green fundo.png": "/static/media/mapa green fundo.8893362c753423dc32fe.png",
-    "static/media/BreeSerif-Regular.ttf": "/static/media/BreeSerif-Regular.751eb941c0e1335ad247.ttf",
-    "static/media/TravelLogo.png": "/static/media/TravelLogo.b4b326c558f7ac5efa7d.png",
-    "static/media/airplane fundo.png": "/static/media/airplane fundo.208b549247ab47956750.png",
-    "static/media/Mapa fundo.png": "/static/media/Mapa fundo.aa3f8fb70541c1190223.png",
-    "index.html": "/index.html",
-    "main.f4bd9e35.css.map": "/static/css/main.f4bd9e35.css.map",
-    "main.252a22ec.js.map": "/static/js/main.252a22ec.js.map",
-    "787.b5f25161.chunk.js.map": "/static/js/787.b5f25161.chunk.js.map"
+    "main.css": "/travel-blog-template/static/css/main.131a8563.css",
+    "main.js": "/travel-blog-template/static/js/main.41bfb566.js",
+    "static/js/787.b5f25161.chunk.js": "/travel-blog-template/static/js/787.b5f25161.chunk.js",
+    "static/media/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.jpg": "/travel-blog-template/static/media/samuel-wesley-silva-Lr2K2hAbAH0-unsplash.7df937ab00660e25cc90.jpg",
+    "static/media/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg": "/travel-blog-template/static/media/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.39a84100753be9211942.jpg",
+    "static/media/ondrej-bocek-3q0YQQJMkjw-unsplash.jpg": "/travel-blog-template/static/media/ondrej-bocek-3q0YQQJMkjw-unsplash.7e77b35580bb746b315d.jpg",
+    "static/media/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg": "/travel-blog-template/static/media/denys-nevozhai-z0nVqfrOqWA-unsplash.93d360ac671938c90928.jpg",
+    "static/media/man-kwan-bQFxKVLV6SY-unsplash.jpg": "/travel-blog-template/static/media/man-kwan-bQFxKVLV6SY-unsplash.044e8c788a68fc5ac56f.jpg",
+    "static/media/Montserrat-Regular.ttf": "/travel-blog-template/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/mapa green fundo.png": "/travel-blog-template/static/media/mapa green fundo.8893362c753423dc32fe.png",
+    "static/media/BreeSerif-Regular.ttf": "/travel-blog-template/static/media/BreeSerif-Regular.751eb941c0e1335ad247.ttf",
+    "static/media/TravelLogo.png": "/travel-blog-template/static/media/TravelLogo.b4b326c558f7ac5efa7d.png",
+    "static/media/airplane fundo.png": "/travel-blog-template/static/media/airplane fundo.208b549247ab47956750.png",
+    "static/media/Mapa fundo.png": "/travel-blog-template/static/media/Mapa fundo.aa3f8fb70541c1190223.png",
+    "index.html": "/travel-blog-template/index.html",
+    "main.131a8563.css.map": "/travel-blog-template/static/css/main.131a8563.css.map",
+    "main.41bfb566.js.map": "/travel-blog-template/static/js/main.41bfb566.js.map",
+    "787.b5f25161.chunk.js.map": "/travel-blog-template/static/js/787.b5f25161.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4bd9e35.css",
-    "static/js/main.252a22ec.js"
+    "static/css/main.131a8563.css",
+    "static/js/main.41bfb566.js"
   ]
 }
