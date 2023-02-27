@@ -1,5 +1,9 @@
 @import "./ColorPalete.scss";
 
+.App {
+ overflow-x: hidden;
+}
+
 .banner-home {
     height: 500px;
     background-color: white;
