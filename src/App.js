@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <section className="banner-home">
+      {/* <section className="banner-home">
         <Banner />
       </section>
       <section className="passeios" id="passeios">
@@ -87,7 +87,7 @@ function App() {
             <button>enviar</button>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

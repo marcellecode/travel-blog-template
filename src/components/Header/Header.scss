@@ -2,79 +2,110 @@
 
 $device-width: 100vw;
 
-@media (min-width: 960px) {
+@media (min-width: 280px) {
     .header-container {
-        height: 200px;
-        width: $device-width;
-        max-width: $device-width;
+        height: 100px;
+        width: 100vw;
         background: linear-gradient(180deg, #FFFFFF 83.96%, #FFFFFF 86.69%, rgba(217, 217, 217, 0) 100%);
-        display: flex;
         padding: 0px 15px;
-        align-items: center;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
         overflow: hidden;
+        align-content: center;
+        justify-content: space-between;
+
+        .links-container-desktop {
+            display: none;
+        }
 
         .links-container {
-            width: calc($device-width * 1/3);
-            max-width: calc($device-width * 1/3);
+            width: $device-width;
             height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0px 5px;
+            align-content: center;
+            visibility: hidden;
+            position: absolute;
+            top: 85px;
+            left: 0;
+            flex-direction: column;
+            width: 100%;
+            height: 0;
+            background: linear-gradient(180deg, #FFFFFF 83.96%, #FFFFFF 86.69%, rgba(217, 217, 217, 0) 100%);
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.1s ease-in-out;
+            z-index: 20;
 
             a {
                 font-family: 'Montserrat-Regular';
                 font-style: normal;
                 font-weight: 400;
+                font-size: 15px;
                 line-height: 29px;
                 text-decoration: none;
                 text-transform: uppercase;
                 color: $gray-dark;
-                font-size: 15px;
+                padding: 9px;
                 transition: font-size 0.3s ease-in-out;
+
                 &:hover {
-                    font-size: 15.5px;
+                    font-size: 25px;
                     text-decoration: underline;
                 }
             }
 
+            &.expanded {
+                display: inline-flex;
+                justify-content: center;
+                height: max-content;
+                visibility: visible;
+                opacity: 1;
+                // top: 130px;
+                background: linear-gradient(180deg, #FFFFFF 92.96%, #FFFFFF 85.69%, rgba(217, 217, 217, 0) 100%);
+            }
         }
 
         .logo-container {
-            width: calc($device-width * 1/3);
+            width: calc($device-width / 2);
+            height: 150px;
             display: flex;
-            justify-content: center;
+            align-items: center;
 
             img {
-                width: 300px;
-                height: 250px;
+                width: 145px;
+                height: 131px;
             }
         }
 
         .language-container {
-            width: calc($device-width * 1/3);
+            width: $device-width;
+            height: 150px;
             display: flex;
-            justify-content: flex-end;
             align-items: center;
-            margin-right: 40px;
-
-            span {
-                font-size: 15px;
-                margin-right: 15px;
-            }
-
-            svg {
-                font-size: 19px;
-            }
+            justify-content: flex-end;
+            margin-right: 20px;
+            display: none;
         }
 
         .hamburguer-icon {
-            display: none;
+            border: none;
+            font-size: 35px;
+            cursor: pointer;
+            color: $gray-dark;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 20px;
+
+            &:hover {
+                opacity: 0.7;
+            }
         }
     }
 }
 
-@media (max-width: 960px) {
+@media (min-width: 370px) and (max-width: 959px) {
     .header-container {
         height: 150px;
         width: $device-width;
@@ -84,6 +115,10 @@ $device-width: 100vw;
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;
+
+        .links-container-desktop {
+            display: none;
+        }
 
         .links-container {
             width: $device-width;
@@ -106,7 +141,7 @@ $device-width: 100vw;
                 font-family: 'Montserrat-Regular';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 29px;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -123,9 +158,11 @@ $device-width: 100vw;
             &.expanded {
                 display: inline-flex;
                 justify-content: center;
-                height: calc(100vh - 685px);
+                height: max-content;
                 visibility: visible;
                 opacity: 1;
+                top: 130px;
+                background: linear-gradient(180deg, #FFFFFF 92.96%, #FFFFFF 85.69%, rgba(217, 217, 217, 0) 100%);
             }
         }
 
@@ -169,3 +206,177 @@ $device-width: 100vw;
         }
     }
 }
+
+@media (min-width: 960px) {
+    .header-container {
+        height: 200px;
+        width: $device-width;
+        max-width: $device-width;
+        background: linear-gradient(180deg, #FFFFFF 83.96%, #FFFFFF 86.69%, rgba(217, 217, 217, 0) 100%);
+        display: flex;
+        padding: 0px 15px;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        
+        .links-container {
+            display: none;
+        }
+
+        .links-container-desktop {
+            width: calc($device-width * 1/3);
+            max-width: calc($device-width * 1/3);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 5px;
+            padding-left: 25px;
+
+            a {
+                font-family: 'Montserrat-Regular';
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $gray-dark;
+                font-size: 15px;
+                transition: font-size 0.3s ease-in-out;
+                &:hover {
+                    font-size: 15.5px;
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        .logo-container {
+            width: calc($device-width * 1/3);
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 300px;
+                height: 250px;
+            }
+        }
+
+        .language-container {
+            width: 29vw;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 64px;
+            span {
+                font-size: 15px;
+                margin-right: 15px;
+            }
+
+            svg {
+                font-size: 19px;
+            }
+        }
+
+        .hamburguer-icon {
+            display: none;
+        }
+    }
+}
+
+// @media (max-width: 960px) {
+//     .header-container {
+//         height: 150px;
+//         width: $device-width;
+//         background: linear-gradient(180deg, #FFFFFF 83.96%, #FFFFFF 86.69%, rgba(217, 217, 217, 0) 100%);
+//         padding: 0px 15px;
+//         display: flex;
+//         display: flex;
+//         flex-wrap: wrap;
+//         overflow: hidden;
+
+//         .links-container {
+//             width: $device-width;
+//             height: 150px;
+//             align-content: center;
+//             visibility: hidden;
+//             position: absolute;
+//             top: 129px;
+//             left: 0;
+//             flex-direction: column;
+//             width: 100%;
+//             height: 0;
+//             background: linear-gradient(180deg, #FFFFFF 83.96%, #FFFFFF 86.69%, rgba(217, 217, 217, 0) 100%);
+//             text-align: center;
+//             opacity: 0;
+//             transition: opacity 0.1s ease-in-out;
+//             z-index: 20;
+
+//             a {
+//                 font-family: 'Montserrat-Regular';
+//                 font-style: normal;
+//                 font-weight: 400;
+//                 font-size: 24px;
+//                 line-height: 29px;
+//                 text-decoration: none;
+//                 text-transform: uppercase;
+//                 color: $gray-dark;
+//                 padding: 9px;
+//                 transition: font-size 0.3s ease-in-out;
+
+//                 &:hover {
+//                     font-size: 25px;
+//                     text-decoration: underline;
+//                 }
+//             }
+
+//             &.expanded {
+//                 display: inline-flex;
+//                 justify-content: center;
+//                 height: calc(100vh - 685px);
+//                 visibility: visible;
+//                 opacity: 1;
+//             }
+//         }
+
+//         .logo-container {
+//             width: calc($device-width / 2);
+//             height: 150px;
+//             display: flex;
+//             align-items: center;
+
+//             img {
+//                 width: 250px;
+//                 height: 215px;
+//             }
+//         }
+
+//         .language-container {
+//             width: $device-width;
+//             height: 150px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: flex-end;
+//             margin-right: 20px;
+//             display: none;
+//         }
+
+//         .hamburguer-icon {
+//             width: calc($device-width / 2);
+//             border: none;
+//             font-size: 40px;
+//             cursor: pointer;
+//             color: $gray-dark;
+//             background-color: transparent;
+//             display: flex;
+//             align-items: center;
+//             justify-content: flex-end;
+//             padding-right: 20px;
+
+//             &:hover {
+//                 opacity: 0.7;
+//             }
+//         }
+//     }
+// }
