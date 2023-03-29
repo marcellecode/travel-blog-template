@@ -13,34 +13,38 @@
     bottom: 27px;
 }
 
-.passeios {
-    background-image: url("./assets/img/Mapa\ fundo.png");
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position-x: 107px;
-    background-position-y: -61px;
-    background-size: 280px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-
-    h1 {
-        font-family: "BreeSerif-Regular";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .passeios-list {
+@media (min-width: 280px) {
+    .passeios {
+        background-image: url("./assets/img/Mapa\ fundo.png");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 107px;
+        background-position-y: -61px;
+        background-size: 280px;
+        // padding: 15px;
         display: flex;
-        justify-content: space-evenly;
-        margin: 10px 15px;
-        flex-wrap: wrap;
-    }
+        flex-direction: column;
+    
+        h1 {
+            font-family: "BreeSerif-Regular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            padding: 0px 0px 0px 15px;
+            margin: 0px;
+        }
+    
+        .passeios-list {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px 15px;
+            flex-wrap: wrap;
+            // display: none;
+        }
+    }    
 }
+
 
 .sobrenos {
     background-image: url("./assets/img/mapa\ green\ fundo.png");
@@ -82,7 +86,8 @@
             line-height: 29px;
         }
     }
-}
+}    
+
 
 .contato {
     background-image: url("./assets/img/airplane\ fundo.png");

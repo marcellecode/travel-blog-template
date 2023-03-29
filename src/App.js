@@ -13,7 +13,7 @@ function App() {
       <section className="banner-home">
         <Banner />
       </section>
-      {/* <section className="passeios" id="passeios">
+      <section className="passeios" id="passeios">
         <h1>Passeios</h1>
         <div className="passeios-list">
           <Passeios
@@ -41,7 +41,7 @@ function App() {
           />
         </div>
       </section>
-
+{/* 
       <section className="sobrenos" id="sobrenos">
         <h1>Sobre nós</h1>
         <div className="sobrenos-content">
