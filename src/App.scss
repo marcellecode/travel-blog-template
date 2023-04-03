@@ -45,6 +45,41 @@
     }    
 }
 
+@media (min-width: 480px) {
+	.passeios-list {
+		height: max-content;
+		width: 100%;
+		display: flex;
+		align-items: center;
+        margin: 0px;
+	}
+}
+
+@media (min-width: 540px) { 
+    .passeios-list { 
+        width: 95%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .passeios {
+        margin: 0px;
+        .passeios-list {
+            padding: 0px;
+            width: 100%;
+            margin: 0px;
+        }
+    }
+}
+
+@media (min-width: 820px) { 
+    .passeios {
+        .passeios-list {
+            flex-wrap: nowrap;
+        }
+    }
+}
+
 
 .sobrenos {
     background-image: url("./assets/img/mapa\ green\ fundo.png");
@@ -163,11 +198,4 @@
     }
 }
 
-@media (min-width: 480px) {
-	.passeios-list {
-		height: max-content;
-		width: 90%;
-		display: flex;
-		align-items: center;
-	}
-}
+

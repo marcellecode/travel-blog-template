@@ -97,13 +97,19 @@
 
 @media (min-width: 768px) {
 	.passeios-card {
-		width: 290px;
+		width: calc(90% / 3);
 		padding: 15px;
-		
+
 		img {
 			height: 150px;
 			width: 100%;
 			border-radius: 13px;
 		}
+	}
+}
+
+@media (min-width: 768px) {
+	.passeios-card {
+		width: 27%;
 	}
 }
